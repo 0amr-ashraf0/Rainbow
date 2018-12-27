@@ -4,7 +4,7 @@ var prefix = "!";
 client.on('message', message => {
 if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + 'sr')) {
-      let role = message.guild.roles.find('name', 'Rainbow ')
+      let role = message.guild.roles.find('name', 'Role-Rainbow ')
     if(role) return message.channel.send(`يوجد بلفعل رتبه موجوده ضع البوت فوق الرتبه`)
   if(!role){
     rainbow =  message.guild.createRole({
