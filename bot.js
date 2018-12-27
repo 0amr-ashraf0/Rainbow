@@ -21,7 +21,7 @@ message.channel.send('تم اعداد رتبه الرنبو بنجاح 🌈')//i
 client.on('ready', () => {//لا تغير شي هنا
   setInterval(function(){//Codes Server
       client.guilds.forEach(g => {//Codes Server
-                  var role = g.roles.find('name', 'Rainbow ');//اسم رتبه رنبو 
+                  var role = g.roles.find('name', 'Role-Rainbow ');//اسم رتبه رنبو 
                   if (role) {//Codes Server
                       role.edit({color : "RANDOM"});//Codes Server
                   };
