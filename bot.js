@@ -9,7 +9,7 @@ if(!message.channel.guild) return;
   if(!role){
     rainbow =  message.guild.createRole({
    name: "Rainbow ",//اسم الرتبه 
-   color: "#000000",//الون الاساسي للرنبو 
+   color: "RANDOM",//الون الاساسي للرنبو 
    permissions:[]//الرتبه المسموح بيها للرنبو  مثال MANAGE_ROLES ADMINISTRATOR   
  //نهايه الكود هنا
 })
